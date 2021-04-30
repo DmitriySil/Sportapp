@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/rules_item"
+        android:icon="@drawable/icon_rules"
+        android:title="rules" />
+    <item
+        android:id="@+id/players_item"
+        android:icon="@drawable/icon_players"
+        android:title="players" />
+    <item
+        android:id="@+id/gallery_item"
+        android:icon="@drawable/icon_gallery"
+        android:title="gallery" />
+    <item
+        android:id="@+id/main_item"
+        android:icon="@drawable/icon_main"
+        android:title="back"
+        app:showAsAction="withText" />
+</menu>
